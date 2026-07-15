@@ -2,9 +2,11 @@
     color: #FFFFFF;
     background-color: #2E2F42;
     padding: 188px 0px;
+    max-width:1440px;
+    margin: 0 auto;
     
     background-image: linear-gradient(rgba(46, 47, 66 , 0.7), rgba(46, 47, 66 , 0.7)), 
-    url(/images/hero-bg.svg);
+    url(../images/hero-bg.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,6 +44,8 @@
     border-radius: 4px;
     padding: 16px 32px;
     border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .herro-button:hover,
 .herro-button:focus {
